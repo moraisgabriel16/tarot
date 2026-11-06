@@ -1,28 +1,19 @@
-# ARCANA — Atlas do Tarô
+# Tarot da Marjo — experiência contínua
 
-Site estático, responsivo e sem backend para explorar os 22 Arcanos Maiores.
+Nova interface inspirada na navegação do projeto `moraisgabriel16/tarot`, adaptada à identidade visual clara, floral e solar do Tarot da Marjo.
 
-## Como executar
+## Conteúdo
+- Início com apresentação e navegação por âncoras.
+- Tiragens de uma ou três cartas sem repetição, pergunta opcional, leitura detalhada abaixo das imagens.
+- Galeria completa de 22 Arcanos Maiores com pesquisa e janelas de interpretação.
+- Imagens individuais derivadas do atlas fornecido, logo minimalista e favicon.
+- Links: https://www.instagram.com/tarotdamarjo/ e https://wa.me/5511921824057
 
-Abra `index.html` no navegador. Para servir localmente, execute na pasta do projeto:
+## Executar
 
-```bash
-python -m http.server 8000
-```
+Abra `index.html` diretamente no navegador ou execute `python -m http.server 8000` para usar um servidor local. Os dados das cartas são carregados no próprio HTML para compatibilidade com `file://`.
 
-Depois acesse `http://localhost:8000`.
+Para a Vercel, publique todos os arquivos na raiz (sem configuração de framework).
 
-## Funcionalidades
-
-- Atlas visual com 22 cartas recortadas do atlas criado na conversa.
-- Busca por nome, número ou palavra-chave.
-- Tiragens de 1 ou 3 cartas, com embaralhamento aleatório sem repetição.
-- Interpretações individuais: significado, mensagem, amor, carreira e pergunta reflexiva.
-- Layout adaptado para celular.
-- Sem necessidade de API, login ou instalação de pacotes.
-
-## Próximas etapas
-
-Adicionar os 56 Arcanos Menores, tiragens personalizadas e histórico local de leituras.
-
-**Observação:** Conteúdo simbólico para reflexão, sem promessas de previsão do futuro.
+## Observações
+As cartas foram recortadas de uma única ilustração e preservam a numeração do atlas (VIII Justiça, XI Força). O tarô é uma ferramenta de reflexão, não de previsão factual.
